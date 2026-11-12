@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="QWQ0wTeCCpBYZrPl29xF">
-    <mxGraphModel dx="1849" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,13 @@
         <mxCell id="u3Xu29E7wW0BUm2l8WNK-14" parent="1" style="whiteSpace=wrap;html=1;" value="虚拟同步机模式" vertex="1">
           <mxGeometry height="40" width="100" x="-50" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="u3Xu29E7wW0BUm2l8WNK-16" parent="1" style="whiteSpace=wrap;html=1;" value="确定各个工况的&lt;br&gt;1、虚拟阻抗值&lt;br&gt;2、启动电压参考值" vertex="1">
+        <mxCell id="lRrIk222-o8kierbZJ6O-14" edge="1" parent="1" source="u3Xu29E7wW0BUm2l8WNK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lRrIk222-o8kierbZJ6O-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRrIk222-o8kierbZJ6O-16" edge="1" parent="1" source="u3Xu29E7wW0BUm2l8WNK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lRrIk222-o8kierbZJ6O-15">
+          <mxGeometry relative="1" x="0.099" as="geometry" />
+        </mxCell>
+        <mxCell id="u3Xu29E7wW0BUm2l8WNK-16" parent="1" style="whiteSpace=wrap;html=1;" value="确定各个工况的&lt;br&gt;1、虚拟阻抗值vir_res、vir_induc&lt;br&gt;2、启动电压参考值volt_outd" vertex="1">
           <mxGeometry height="85" width="120" x="90" y="717.5" as="geometry" />
         </mxCell>
         <mxCell id="eWhBa22z5hfziUVLZlHj-16" parent="1" style="whiteSpace=wrap;html=1;" value="g_inv_mux.idref&lt;div&gt;g_inv_mux.idref&lt;/div&gt;" vertex="1">
@@ -228,6 +234,12 @@
         </mxCell>
         <mxCell id="lRrIk222-o8kierbZJ6O-5" parent="1" style="whiteSpace=wrap;html=1;" value="其他" vertex="1">
           <mxGeometry height="40" width="100" x="-50" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="lRrIk222-o8kierbZJ6O-13" parent="1" style="whiteSpace=wrap;html=1;" value="udref" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="lRrIk222-o8kierbZJ6O-15" parent="1" style="whiteSpace=wrap;html=1;" value="uqref" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
