@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="QWQ0wTeCCpBYZrPl29xF">
-    <mxGraphModel dx="1537" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +228,7 @@
           <mxGeometry height="30" width="60" x="920" y="910" as="geometry" />
         </mxCell>
         <mxCell id="xjT0fjJq5zYCLNaGEL2E-7" parent="1" style="whiteSpace=wrap;html=1;" value="g_inv_mux.idref&lt;div&gt;g_inv_mux.idref&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="1200" y="570" as="geometry" />
+          <mxGeometry height="55" width="130" x="1390" y="857.5" as="geometry" />
         </mxCell>
         <mxCell id="eWhBa22z5hfziUVLZlHj-50" parent="1" style="whiteSpace=wrap;html=1;" value="额定视在功率" vertex="1">
           <mxGeometry height="40" width="100" x="-170" y="300" as="geometry" />
@@ -303,8 +303,45 @@
         <mxCell id="eWhBa22z5hfziUVLZlHj-79" parent="1" style="whiteSpace=wrap;html=1;" value="sout_inport_ref" vertex="1">
           <mxGeometry height="70" width="150" x="490" y="340" as="geometry" />
         </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-2" edge="1" parent="1" source="nds85jf1L5WwJILi7ZBl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="3ZOsLCm5m4Vg1G2ZeyH1-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-8" edge="1" parent="1" source="nds85jf1L5WwJILi7ZBl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="3ZOsLCm5m4Vg1G2ZeyH1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nds85jf1L5WwJILi7ZBl-2" parent="1" style="whiteSpace=wrap;html=1;" value="根据设置功率方向&lt;div&gt;无功优先设置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;计算&lt;/span&gt;有功功率&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="730" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-4" edge="1" parent="1" source="3ZOsLCm5m4Vg1G2ZeyH1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="3ZOsLCm5m4Vg1G2ZeyH1-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-1" parent="1" style="whiteSpace=wrap;html=1;" value="1.2过载&lt;div&gt;电池温度、soc降额&lt;/div&gt;&lt;div&gt;监控板限额&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-9" edge="1" parent="1" source="3ZOsLCm5m4Vg1G2ZeyH1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3ZOsLCm5m4Vg1G2ZeyH1-11">
+          <mxGeometry relative="1" x="-0.4615" as="geometry">
+            <mxPoint x="1280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-3" parent="1" style="whiteSpace=wrap;html=1;" value="g_power_mux.pout" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-10" edge="1" parent="1" source="3ZOsLCm5m4Vg1G2ZeyH1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3ZOsLCm5m4Vg1G2ZeyH1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-6" parent="1" style="whiteSpace=wrap;html=1;" value="g_power_mux.qout" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-13" edge="1" parent="1" source="3ZOsLCm5m4Vg1G2ZeyH1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="3ZOsLCm5m4Vg1G2ZeyH1-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-11" parent="1" style="whiteSpace=wrap;html=1;" value="环路计算" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZOsLCm5m4Vg1G2ZeyH1-12" parent="1" style="whiteSpace=wrap;html=1;" value="g_power_loop.out&lt;div&gt;g_qvar_loop.out&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1390" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
